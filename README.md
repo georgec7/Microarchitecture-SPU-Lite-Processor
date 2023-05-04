@@ -1,5 +1,6 @@
 # Microarchitecture-SPU-Lite-Processor
 
+The SPU processor core consists of two processing pipes, register file, and data forwarding circuits which
 is represented the Architecture block diagram. Each of the core units are explained below: -
 
 Fetch: This units fetches instruction from the Instruction memory and passes it to the decode stage. When any hazards are detected by the decode unit, this unit stalls the PC (Program Counter). Thereby no new instructions will be fetched.  If a branch is taken, this unit starts reading Instructions from the new Program Counter.
@@ -14,6 +15,5 @@ Even Pipe: This unit performs all the even type instructions as mentioned in the
 Odd Pipe: This unit performs all the odd type instructions as mentioned in the ISA table . In total, this  SDasdasdPermute and Local Store.The latency and Unit id can be found in ISA table.
 
 Local Store: Local Store of size 32KB is used to store data memory. 
-
 
 ![image](https://user-images.githubusercontent.com/49031532/236107998-d1c15724-1cbe-420b-83cd-a0355c635504.png)
