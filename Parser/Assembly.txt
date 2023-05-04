@@ -1,0 +1,29 @@
+il 18,6
+il 9, 212
+il 10,108
+sf 0,11,0
+il 1,4
+sf 6,10,1
+il 2,0
+fsm 0,210
+mpya 18,0,13,23
+mpy 14,17,15
+il 3,4
+sf 13,10,9
+mpya 19,0,13,1
+mpy 20,1,15
+a 22,20,18
+mpya 16,3,13,1
+mpy 17,31,15
+a 21,17,9
+fma 2,6,7,2
+nop 
+lnop 
+nop 
+lnop 
+nop 
+lnop 
+nop 
+lnop 
+nop 
+stop 
